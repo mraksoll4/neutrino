@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/btcsuite/btcd/wire"
-	"github.com/lightninglabs/neutrino/blockntfns"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/neutrino/blockntfns"
 )
 
 // createTx is a helper method to create random transactions that spend

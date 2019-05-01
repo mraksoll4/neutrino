@@ -8,13 +8,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil/gcs/builder"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightninglabs/neutrino/blockntfns"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/mraksoll4/btcd/chaincfg"
+	"github.com/mraksoll4/btcd/chaincfg/chainhash"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/btcutil/gcs/builder"
+	"github.com/mraksoll4/btcwallet/walletdb"
+	"github.com/mraksoll4/neutrino/blockntfns"
+	"github.com/mraksoll4/neutrino/headerfs"
 )
 
 // maxHeight is the height we will generate filter headers up to.

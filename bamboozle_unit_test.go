@@ -6,13 +6,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil/gcs"
-	"github.com/btcsuite/btcutil/gcs/builder"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/mraksoll4/btcd/chaincfg"
+	"github.com/mraksoll4/btcd/chaincfg/chainhash"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/btcutil/gcs"
+	"github.com/mraksoll4/btcutil/gcs/builder"
+	"github.com/mraksoll4/btcwallet/walletdb"
+	"github.com/mraksoll4/neutrino/headerfs"
 )
 
 func decodeHashNoError(str string) *chainhash.Hash {
