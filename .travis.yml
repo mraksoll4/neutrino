@@ -3,7 +3,7 @@ cache:
   directories:
     - $GOCACHE
     - $GOPATH/pkg/mod
-    - $GOPATH/src/github.com/btcsuite
+    - $GOPATH/src/github.com/mraksoll4
     - $GOPATH/src/github.com/golang
     - $GOPATH/src/gopkg.in/alecthomas
 go:
@@ -11,7 +11,7 @@ go:
 sudo: false
 install:
   - export PATH=$PATH:$PWD/linux-amd64/
-  - mkdir -p $GOPATH/src/github.com/btcsuite/
+  - mkdir -p $GOPATH/src/github.com/mraksoll4/
   - go get -d github.com/mraksoll4/btcd
   - pushd $GOPATH/src/github.com/mraksoll4/btcd
   - $GOPATH/src/github.com/mraksoll4/neutrino/btcd_checkout.sh
